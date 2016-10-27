@@ -2,6 +2,12 @@
 
 Script to generate a simple markdown TOC list.
 
+- Lists all folder names as `# Headline` and all files as Markdown links in a bullet-list.
+- Traverses all subfolders.
+- skips `.idea`, `.git` and `.` folder as headline
+- skips `.idea`, `.git` contents
+
+
 
 ## Usage
 
